@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-weight: 300;
+}
+body {
+  background-color: #0f1424;
+  color: #fdfdfd;
+  font-family: "Rubik", sans-serif;
+}
+/* {
+    - Very dark blue: hsl(226, 43%, 10%)
+- Dark blue: hsl(235, 46%, 20%)
+- Desaturated blue: hsl(235, 45%, 61%)
+- Pale Blue: hsl(236, 100%, 87%) 
+
+}*/
+
+.container {
+  margin: 15%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 18px;
+}
+.cellmain {
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.incellmain {
+  display: grid;
+  grid-template-rows: 40px 150px;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+}
+#cellmain1 a {
+  color: hsl(236, 100%, 87%);
+  font-weight: 50;
+  text-decoration: none;
+  padding: 10px 25px;
+}
+#cellmain1 a:active {
+  color: #fdfdfd;
+}
+#cellmain1 a:hover {
+  color: #fdfdfd;
+}
+.icon {
+  position: relative;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  width: 25%;
+  left: 70%;
+  bottom: 4px;
+  z-index: 1;
+}
+#exercise {
+  bottom: 0;
+  left: 65%;
+  width: 30%;
+}
+.dot {
+  float: right;
+  width: 15px;
+  color: hsl(236, 100%, 87%);
+}
+.dot:hover {
+width: 17px;
+}
+.cell {
+  background-color: #1c1f4a;
+  border-radius: 10px;
+  z-index: 2;
+  overflow: hidden;
+  padding: 20px;
+}
+.incell {
+}
+.title {
+  color: #fdfdfd;
+  font-weight: 400;
+}
+h1 {
+  padding-top: 20px;
+}
+.last {
+  margin-top: 10px;
+  color: hsl(236, 100%, 87%);
+  font-size: 14px;
+}
+#cellmain1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: #1c1f4a;
+  display: grid;
+  grid-template-rows: 270px 110px;
+}
+.jeremy {
+  width: 70px;
+  border: 2px solid #fdfdfd;
+  border-radius: 50%;
+}
+#cell1 {
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 10px;
+}
+#cell1 p {
+  color: hsl(236, 100%, 87%);
+  margin-top: 20px;
+  font-size: small;
+}
+#cellmain2 {
+  background-color: #ff8c66;
+}
+#cellmain3 {
+  background-color: hsl(195, 74%, 62%);
+}
+#cellmain4 {
+  background-color: hsl(348, 100%, 68%);
+}
+#cellmain5 {
+  background-color: hsl(145, 58%, 55%);
+}
+#cellmain6 {
+  background-color: hsl(264, 64%, 52%);
+}
+#cellmain7 {
+  background-color: hsl(43, 84%, 65%);
+}
